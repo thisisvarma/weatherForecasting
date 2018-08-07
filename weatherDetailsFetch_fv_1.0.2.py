@@ -4,7 +4,6 @@ import json
 import pymysql
 now=time.strftime("%Y%m%d%H%M%S")
 
-
 #constants
 appid=str("0c42f7f6b53b244c78a418f4f181282a")
 rawURL=str("http://api.openweathermap.org/data/2.5/weather?")
@@ -113,3 +112,4 @@ for city in cities_list:
 	   	w_pr=data['weather'][0]['description'],\
 	   	w_humi=data['main']['humidity'],\
 	   	w_win_spd=data['wind']['speed'])
+
