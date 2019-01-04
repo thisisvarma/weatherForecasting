@@ -1,3 +1,4 @@
+## listing city formates
 city_list=[]
 country=",us"
 with open('Documents/hobbie_projects/weatherForecasting/city_list') as fp:
